@@ -59,7 +59,6 @@ def calculate_score(hand):
         tmpHand = hand
         if hasJoker:
             tmpHand = tmpHand.replace('J', lettersInHand[i])
-        print(tmpHand)
         
         tmpScore = '0'
         if isFiveK(tmpHand):
@@ -74,8 +73,6 @@ def calculate_score(hand):
             tmpScore = '2'
         elif isPair(tmpHand):
             tmpScore = '1'
-
-        print(tmpScore)
 
         if int(tmpScore) > int(score):
             score = tmpScore
