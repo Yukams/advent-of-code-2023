@@ -21,3 +21,5 @@ https://adventofcode.com/2023/about
 **Learned a new algorithm :** LCM ([Reddit post](https://www.reddit.com/r/adventofcode/comments/18dfpub/2023_day_8_part_2_why_is_spoiler_correct/) about the reasons it works for this problem)
 
 **Why I failed :** I did not check if the mapping was looping and hence, did not think about any clever way to resolve the second part of this problem.
+### Day 9 : ✅ part1 ✅ part2
+**Learned a new algorithm :** Next element in a sequence
